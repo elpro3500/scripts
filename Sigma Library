@@ -424,7 +424,7 @@ function UILibrary.Main(PrjName,HideKey)
 		Elements.CanvasSize = UDim2.new(0,0,0,0)
 		Elements.AutomaticCanvasSize = Enum.AutomaticSize.Y
 		Elements.ScrollBarThickness = 2
-		Elements.ScrollBarImageColor3 = Color3.fromRGB(0, 170, 255)
+		Elements.ScrollBarImageColor3 = Color3.fromRGB(191, 0, 255)
 		Elements.ScrollBarImageTransparency = 0.5
 
 		FadeFrame.Name = "FadeFrame"
