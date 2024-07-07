@@ -1,0 +1,1 @@
+loadstring(game:HttpGet("https://raw.githubusercontent.com/elpro3500/scripts/main/EnderHub-SlapBattles"))()
