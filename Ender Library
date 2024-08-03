@@ -1172,7 +1172,7 @@ function UILibrary.Main(PrjName,HideKey)
 					ChoosedCircle.Name = "ChoosedCircle"
 					ChoosedCircle.Parent = SelectableButton
 					ChoosedCircle.AnchorPoint = Vector2.new(0,0.5)
-					ChoosedCircle.BackgroundColor3 = Color3.fromRGB(225, 1, 255)
+					ChoosedCircle.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 					ChoosedCircle.BackgroundTransparency = 1.000
 					ChoosedCircle.BorderSizePixel = 0
 					ChoosedCircle.Position = UDim2.new(0, 5, 0.5, 0)
@@ -1181,7 +1181,7 @@ function UILibrary.Main(PrjName,HideKey)
 					InnerCircle.Name = "InnerCircle"
 					InnerCircle.Parent = ChoosedCircle
 					InnerCircle.AnchorPoint = Vector2.new(0.5, 0.5)
-					InnerCircle.BackgroundColor3 = Color3.fromRGB(212, 0, 255)
+					InnerCircle.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 					InnerCircle.BackgroundTransparency = 1.000
 					InnerCircle.BorderSizePixel = 0
 					InnerCircle.Position = UDim2.new(0.5, 0, 0.5, 0)
