@@ -50,7 +50,7 @@ function UILibrary.Main(PrjName,HideKey)
 
 	HideMain.Name = "Main"
 	HideMain.Parent = Main
-	HideMain.BackgroundColor3 = Color3.fromRGB(217, 25, 255)
+	HideMain.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 	HideMain.BorderSizePixel = 0
 	HideMain.ClipsDescendants = true
 	HideMain.Position = UDim2.new(0, 0, 0, 0)
@@ -130,7 +130,7 @@ function UILibrary.Main(PrjName,HideKey)
 	List.Size = UDim2.new(0.998000026, 0, 1, 0)
 	List.AutomaticCanvasSize = Enum.AutomaticSize.Y
 	List.ScrollBarThickness = 2
-	List.ScrollBarImageColor3 = Color3.fromRGB(204, 0, 255)
+	List.ScrollBarImageColor3 = Color3.fromRGB(255, 255, 255)
 	List.ScrollBarImageTransparency = 0.5
 	List.CanvasSize = UDim2.new(0,0,0,0)
 
@@ -255,7 +255,7 @@ function UILibrary.Main(PrjName,HideKey)
 			Circle.Name = "Circle"
 			Circle.Parent = Circles
 			Circle.AnchorPoint = Vector2.new(0, 0.5)
-			Circle.BackgroundColor3 = Color3.fromRGB(225, 0, 255)
+			Circle.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 			Circle.BorderSizePixel = 0
 			Circle.Position = UDim2.new(0, (i - 1) * 13, 0.5, 0)
 			Circle.Size = UDim2.new(0, 12, 0, 12)
@@ -424,7 +424,7 @@ function UILibrary.Main(PrjName,HideKey)
 		Elements.CanvasSize = UDim2.new(0,0,0,0)
 		Elements.AutomaticCanvasSize = Enum.AutomaticSize.Y
 		Elements.ScrollBarThickness = 2
-		Elements.ScrollBarImageColor3 = Color3.fromRGB(191, 0, 255)
+		Elements.ScrollBarImageColor3 = Color3.fromRGB(255, 255, 255)
 		Elements.ScrollBarImageTransparency = 0.5
 
 		FadeFrame.Name = "FadeFrame"
@@ -456,7 +456,7 @@ function UILibrary.Main(PrjName,HideKey)
 
 		TabButton.Name = TabName
 		TabButton.Parent = List
-		TabButton.BackgroundColor3 = Color3.fromRGB(191, 0, 255)
+		TabButton.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 		TabButton.BackgroundTransparency = 1.000
 		TabButton.BorderSizePixel = 0
 		TabButton.Position = UDim2.new(0.0412844047, 0, 0, 0)
@@ -466,7 +466,7 @@ function UILibrary.Main(PrjName,HideKey)
 		TabButton.Text = ""
 		TabButton.TextColor3 = Color3.fromRGB(255, 255, 255)
 		TabButton.TextSize = 19.000
-		
+
 
 		TabButtonText.Name = "TabButtonText"
 		TabButtonText.Parent = TabButton
@@ -631,7 +631,7 @@ function UILibrary.Main(PrjName,HideKey)
 				Checker.Name = "Checker"
 				Checker.Parent = Toggle
 				Checker.AnchorPoint = Vector2.new(0, 0.5)
-				Checker.BackgroundColor3 = Color3.fromRGB(179, 1, 255)
+				Checker.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 				Checker.BorderSizePixel = 0
 				Checker.Position = UDim2.new(0.935, 0, 0.5, 0)
 				Checker.Size = UDim2.new(0, 22, 0, 22)
@@ -819,7 +819,7 @@ function UILibrary.Main(PrjName,HideKey)
 				Circle.Name = "Circle"
 				Circle.Parent = Progress
 				Circle.AnchorPoint = Vector2.new(0, 0.5)
-				Circle.BackgroundColor3 = Color3.fromRGB(183, 0, 255)
+				Circle.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 				Circle.BorderSizePixel = 0
 				Circle.Position = UDim2.new(1, 0, 0.5, 0)
 				Circle.Size = UDim2.new(0, 12, 0, 12)
@@ -862,7 +862,7 @@ function UILibrary.Main(PrjName,HideKey)
 
 				Progress.Name = "Progress"
 				Progress.Parent = Sliding
-				Progress.BackgroundColor3 = Color3.fromRGB(0, 123, 255)
+				Progress.BackgroundColor3 = Color3.fromRGB(81, 81, 81)
 				Progress.BorderSizePixel = 0
 				Progress.Size = UDim2.new(0.5, 0, 1, 0)
 
